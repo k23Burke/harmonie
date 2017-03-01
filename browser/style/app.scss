@@ -1,0 +1,25 @@
+@import './normalize.css';
+@import './variables.scss';
+@import './mixins.scss';
+@import './skeleton.scss';
+
+h1 {
+  font-family: "fira-sans-2";
+}
+
+input, button, select {
+	width: 100%;
+	display: block;
+
+	&:focus, &:hover, &:active {
+		outline: none;
+	}
+}
+
+// .container {
+// 	@include for-phone-only { background: red; }
+// 	@include for-tablet-portrait-up { background: orange; }
+// 	@include for-tablet-landscape-up { background: yellow; }
+// 	@include for-desktop-up { background: green; }
+// 	@include for-big-desktop-up { background: blue; }
+// }
